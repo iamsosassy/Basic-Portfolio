@@ -14,13 +14,16 @@ header {
     border-bottom: 2px solid #cccccc;
     background-color: #ffffff;
     position: relative;
+    width: 78%;
+    margin: auto;
 
 }
 
 .logo {
 
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+margin: 0px;
+display: inline-block;
 }
 
 h1 {
@@ -34,12 +37,12 @@ h1 {
 }
       
 h2 {
-    color: #4aaaa5
+    color: #4aaaa5;
 
 }
 .container{
     width: 930px;
-    padding: 30px;
+    
     }
 
 .content {
@@ -55,8 +58,10 @@ h2 {
         text-align: right;
         /* color: #777777; */
         font-weight: normal;
-        /* display: inline-block; */
         font-size: 16px;
+        display: inline-block;
+        float: right;
+        margin-top: 7%;
     }
 
     .a {
@@ -74,10 +79,7 @@ h2 {
         display: table;
     }
 
-    a.visited{
-        color:
-    }
-
+    
 p {
     position: relative;
     padding-left: 1em;
@@ -87,11 +89,13 @@ p {
 .image-port{
     width: 270px;
     height: 200px;
+    
 }
 
 #pfp {
 
     float: left;
+    padding: 23px;
 }
 
 .portfolio-item {
@@ -100,6 +104,7 @@ p {
     height: 200px;
     transition: transform .2 ease-out;
     margin-left: 25px;
+    
 }
 
 .item-name {
@@ -107,9 +112,9 @@ p {
     top: -75px;
     text-align: center;
     background-color: #4aaaa5;
-    padding: 1em;
+    padding: 10px;
     color: #ffffff;
-    z-index: 900;
+    
 }
 
 footer {
